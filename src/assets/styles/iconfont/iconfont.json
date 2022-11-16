@@ -1,0 +1,23 @@
+{
+  "id": "3772424",
+  "name": "英-洗衣订餐小程序",
+  "font_family": "customIcon",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "586980",
+      "name": "minus",
+      "font_class": "minus",
+      "unicode": "e783",
+      "unicode_decimal": 59267
+    },
+    {
+      "icon_id": "7312648",
+      "name": "加号",
+      "font_class": "jiahao-",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    }
+  ]
+}

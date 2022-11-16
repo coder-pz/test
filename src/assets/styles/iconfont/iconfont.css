@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "customIcon"; /* Project id 3772424 */
+  src: url('iconfont.woff2?t=1668503415707') format('woff2'),
+       url('iconfont.woff?t=1668503415707') format('woff'),
+       url('iconfont.ttf?t=1668503415707') format('truetype');
+}
+
+.customIcon {
+  font-family: "customIcon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-minus:before {
+  content: "\e783";
+}
+
+.icon-jiahao-:before {
+  content: "\e606";
+}
+

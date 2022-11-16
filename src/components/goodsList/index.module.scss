@@ -1,0 +1,90 @@
+.tabContent {
+    padding: 0 6px 30px 6px;
+    box-sizing: border-box;
+
+    .foodItem {
+        height: 112px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 8px;
+        padding: 18px;
+        box-sizing: border-box;
+        border-radius: 16px;
+        color: rgba(80, 80, 80, 1);
+        background-color: rgba(255, 255, 255, 1);
+
+        image {
+            height: 73px;
+            width: 109px;
+        }
+
+        .goodsInfoContent {
+            height: 73px;
+            width: calc(100% - 109px);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-left: 10px;
+            box-sizing: border-box;
+
+            .title {
+                display: flex;
+                align-items: center;
+
+                .name {
+                    font-size: 16px;
+                }
+
+                .surplus {
+                    background: #fdf6ec;
+                    color: #e6a23c;
+                    margin-left: 5px;
+                    font-size: 10px;
+                    padding: 3px 6px;
+                }
+            }
+
+            .moneyAndHandle {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .money {
+                    font-weight: bold;
+                    color: #e6a23c;
+                    font-size: 14px;
+
+                    .num {
+                        font-size: 20px;
+                    }
+
+                    .unit {
+                        color: #a6a6a6;
+                        font-size: 14px;
+                    }
+                }
+
+                .handle {
+                    height: 24px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .selectNum {
+                        font-size: 14px;
+                        color: #e6a23c;
+                        margin: 0 5px;
+                    }
+
+                    .icon {
+                        width: 24px;
+                        height: 24px;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
